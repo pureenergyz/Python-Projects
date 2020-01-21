@@ -7,7 +7,7 @@ webbrowser.open_new(url) # Command opens web browser.
 time.sleep(10) # Command pauses code.
 pyautogui.moveTo(561, 164, duration = 1) # Command moves the mouse.
 pyautogui.click(clicks=1) # Command left clicks 1 time.
-pyautogui.write('username') # Enter username supplied by adminisrator.
+pyautogui.write('username') # Enter username supplied by administrator.
 pyautogui.moveTo(564, 210, duration = 1)
 pyautogui.click(clicks=1) # Command left clicks 1 time. 
 pyautogui.write('password') # Enter username supplied by administrator.
